@@ -1,0 +1,42 @@
+﻿@model ExpenceTracker.Models.Expences
+
+@{
+    ViewBag.Title = "SingleExpenceDetails";
+}
+
+<h2>SingleExpenceDetails</h2>
+
+<div>
+    <h4>Expences</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpenceID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpenceID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpenceType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpenceType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpenceAmt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpenceAmt)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

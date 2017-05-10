@@ -1,0 +1,47 @@
+﻿@model IEnumerable<BusinessAccessLayer.Expences>
+
+@{
+    ViewBag.Title = "List Of Expences";
+}
+
+<h2>List Of Expences</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpenceID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpenceType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpenceAmt)
+        </th>
+        <th>
+            Action
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpenceID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpenceType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpenceAmt)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

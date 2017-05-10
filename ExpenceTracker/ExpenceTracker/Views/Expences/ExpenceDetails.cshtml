@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ExpenceTracker.Models.Expences>
+@using ExpenceTracker.Models;
+
+@{
+    ViewBag.Title = "Expence Details";
+}
+
+<div>
+
+    <ul>
+        @foreach(Expences expence in Model)
+        {
+            <li>
+                @Html.ActionLink(expence.ExpenceID, "SingleExpenceDetails", new { ID = expence.ExpenceID });
+            </li>
+
+        }
+    </ul>
+
+
+
+   
+    @*<table style="font-family:Arial">
+        <tr>
+            <td>Expence ID</td>
+            <td>@Model.ExpenceID</td>
+        </tr>
+        <tr>
+            <td>Expence Type</td>
+            <td>@Model.ExpenceType</td>
+        </tr>
+        <tr>
+            <td>ExpenceAmt</td>
+            <td>@Model.ExpenceAmt</td>
+        </tr>
+    </table>*@
+    @*<dl class="dl-horizontal">\
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpenceID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpenceID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpenceType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpenceType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpenceAmt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpenceAmt)
+        </dd>
+
+    </dl>*@
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "ExpenceDetails")
+</p>

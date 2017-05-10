@@ -1,0 +1,10 @@
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll.config
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.pdb
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.dll
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.pdb
+C:\Users\thottaps\Documents\Visual Studio 2015\Projects\ExpenceTracker\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.csprojResolveAssemblyReference.cache
